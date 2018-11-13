@@ -3,5 +3,15 @@ export default class Calculator {
         this.add = function (n, m) {
             return n + m;
         }
+        this.subtract = function (n, m) {
+            return n - m;
+        }
+        this.multiply = function (n, m) {
+            return n * m;
+        }
+        this.div = function (n,m){
+            return n/m;
+        }
     }
 }
+
